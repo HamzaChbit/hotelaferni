@@ -32,7 +32,7 @@ const NewsLetter = () => {
         <div className="p-8 sm:p-16 lg:p-24 flex justify-evenly flex-col " data-aos="fade-up">
           <div>
                 <h2 className="text-3xl font-bold sm:text-3xl tracking-wide ">
-          <span  className="text-tertiary-dark ">HOTEL</span>  NEW FARAH AGADIR         </h2>
+          <span  className="text-tertiary-dark ">HOTEL</span>  Aferni AGADIR      </h2>
 
 
           <p className="my-4 text-gray-600">
