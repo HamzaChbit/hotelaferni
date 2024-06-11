@@ -1,0 +1,74 @@
+{
+  "IndexPage": {
+    "title": "BIENVENUE AU Hôtel Aferni",
+    "description": "un hôtel traditionnel situé dans la région souss d'agadir."
+  },
+  "Contact": {
+    "get":"Entrer en ",
+    "touche": "Contact",
+    "description": "Remplissez le formulaire avec vos questions, commentaires et préoccupations, et nous vous répondrons immédiatement.",
+    "info":"INFORMATIONS DE CONTACT",
+    "infoDec":"Vous avez des questions? Faites le nous savoir. Nous le clarifierons pour vous au mien.",
+    "phone":"TÉLÉPHONE",
+    "name":"Votre nom",
+    "error":"Ce champ est obligatoire"
+  },
+  "FeaturedRoom":{
+    "featured":"Chambre Recommandée",
+    "from":"À partir de",
+    "discount":"Réduction",
+    "more":"Plus de détails"
+  },
+
+  "Navigation": {
+    "home": "Accueil",
+    "rooms":"Chambres"
+  },
+  "Search": {
+    "type": " Type de chambre :",
+    "search":" Recherche",
+    "all":"Tout",
+    "twin":"Chambre double",
+    "triple":"Chambre Triple",
+    "single":"Chambre Simple"
+  },
+  "Card":{
+    "room":"Chambre",
+    "button":"Réserver"
+  },
+  "BookNow":{
+    "checkIn":"Date d'arrivée",
+    "checkOut":"Date de départ",
+    "adults":"Adultes",
+    "children":"Enfants",
+    "total":"Prix total",
+    "book":"Réservez",
+    "singUp":"S'inscrire"
+  },
+  "NewsLetter":{
+    "description":"À 10 minutes à pied de la plage d'Agadir, cet hôtel dispose d'une piscine extérieure entourée d'un jardin et d'un snack-bar. Décoré avec des éléments typiques marocains, il offre une réception ouverte 24h/24, une terrasse et une connexion Wi-Fi gratuite.",
+    "title":"TOUTES LES CHAMBRES D'HÔTES ONT UNE VUE ET DES INSTALLATIONS DE DÉTENTE",
+    "decOne":"Toutes les chambres climatisées comprennent un balcon avec vue sur les environs. Chaque chambre est équipée d'une télévision par satellite et d'une salle de bains privative avec des articles de toilette gratuits.",
+    "decTwo":"Un petit-déjeuner continental peut être commandé le matin. Vous pouvez choisir de dîner dans le restaurant marocain traditionnel ou dans le restaurant international, lire dans la salle de lecture ou vous détendre dans le salon marocain.",
+    "decTree":"L'hôtel Aferni se trouve à 30 minutes en voiture de l'aéroport international d'Agadir-Al Massira. Il est à 35 minutes à pied de la marina d'Agadir et le Musée de Talborjt (La Casbah) est à 10 minutes en voiture.",
+    "get":"Entrer en Contact "
+  },
+  "pageRoom":{
+    "amenities":"Services Inclus",
+    "safety":"Safety And Hygiene",
+    "cleaning":"Nettoyage Quotidien",
+    "fire":"Extincteurs d'incendie",
+    "disinfections":"Désinfections et Stérilisations",
+    "smoke":"Détecteurs de Fumée",
+    "TV":"Téléviseur à écran plat",
+    "air":"Climatisation",
+    "bathroom":"Salle de bain privée"
+  },
+  "Footer": {
+    "copyright": "© 2024 Votre application. Tous droits réservés.",
+    "getintouch":"Entrer en contact",
+    "privacy":"Notre Engagement envers la Confidentialité",
+    "service":"Conditions d'utilisation",
+    "customer":"Assistance client"
+  }
+}

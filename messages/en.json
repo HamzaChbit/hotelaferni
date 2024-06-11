@@ -1,0 +1,76 @@
+{
+  "IndexPage": {
+    "title": "WELCOME TO Hôtel Aferni",
+    "description": "a traditional hotel located in the souss region of agadir."
+  },
+  "Contact": {
+    "get":"Get in",
+    "touche": "Touch",
+    "description": "Fill in the form with your questions, comments and concerns, and  we will get right back to you.",
+    "info":"CONTACT INFO",
+    "infoDec":" Have any Queries? Let us know. We will clear it for you at the best.",
+    "phone":"PHONE",
+    "name":"Your Name",
+    "error":"This field is required"
+
+  },
+  "FeaturedRoom":{
+    "featured":"Featured Room",
+    "from":"Start From",
+    "discount":"Discount",
+    "more":"More Details"
+  },
+
+
+  "Navigation": {
+    "home": "Home",
+    "rooms":"Rooms"
+  },
+  "Search": {
+    "type": "  Room Type :",
+    "search":" Search ",
+    "all":"All",
+    "twin":"Double Room",
+    "triple":"Triple Room",
+    "single":"Single Room"
+  }, 
+  "NewsLetter":{
+    "description":"A 10 minute-walk from Agadir Beach, this hotel features an outdoor pool surrounded by a garden and a snack bar. Decorated with typical Moroccan elements, it offers 24-hour reception, terrace and free Wi-Fi.",
+    "title":"ALL GUEST ROOMS HAVE A VIEW AND RELAXATION FACILITIES",
+    "decOne":" All the air-conditioned rooms include a balcony with a view of the surrounding area. Each room has a satellite TV and an en suite bathroom with free toiletries.",
+    "decTwo":"A continental breakfast can be ordered in the morning. You can choose to dine in the traditional Moroccan or the international restaurant, read in the reading room or relax in the Moroccan lounge.",
+    "decTree":"Hotel Aferni is a 30-minute drive from the international airport of Agadir-Al Massira. It is a 35-minute stroll to the Agadir Marina and La Casbah Museum (Musee de Talborjt) is a 10-minute drive away.",
+    "get":"Get in Touch "
+  },
+  "Card":{
+    "room":"Room",
+    "button":"BOOK NOW"
+  },
+  "BookNow":{
+    "checkIn":" Check in Date",
+    "checkOut":"Check Out Date",
+    "adults":" Adults",
+    "children":"Children",
+    "total":"Total Price",
+    "book":"Book Now",
+    "singUp":"Sign Up"
+  },
+  "pageRoom":{
+    "amenities":"Offered Amenities",
+    "safety":"Safety And Hygiene",
+    "cleaning":"Daily Cleaning",
+    "fire":"Fire Extinguishers",
+    "disinfections":"Disinfections and Sterilizations",
+    "smoke":"Smoke Detectors",
+    "TV":"Flat-screen TV",
+    "air":"Air conditioning",
+    "bathroom":"Private bathroom"
+  },
+  "Footer": {
+    "copyright": "© 2024 Your App. All rights reserved.",
+    "getintouch":"Get in Touch",
+    "privacy":"Our Privacy Commitment",
+    "service":"Terms of service",
+    "customer":"Customer Assistance"
+  }
+}
