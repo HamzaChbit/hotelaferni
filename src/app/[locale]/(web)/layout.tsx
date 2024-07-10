@@ -57,6 +57,7 @@ export default  async function  RootLayout({
           <meta property="og:title" content='HÔTEL Aferni' />
           <meta property="og:description" content='Hotel Aferni offers excellent value for money, with competitive prices and a wide range of amenities. The hotel is strategically located in the heart of Agadir, in the historic and touristy neighborhood of Talborjt. It is surrounded by two large squares, a beautiful pedestrian street leading to the sea.' />
           <meta name="google-site-verification" content="EDDMP4ieAceYdfxZQLRcWHVGF2eSANX6v8VPv1YoM1I" />
+          <meta name="msvalidate.01" content="A42745912D5B69F1E1F1C11B485912B2" />
           <meta name="robots" content="HOTEL, Aferni, Aferni, Hotel Aferni, Hotel Agadir" />
           <meta property="og:url" content={'https://hotelaferni.vercel.app/'} />
         </head>
