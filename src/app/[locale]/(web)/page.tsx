@@ -18,7 +18,7 @@ import ClientComponent from "@/components/HeroSection/ClientComponent";
 
 export default  async function Home() {
   const featuredRoom = await getFeaturedRoom()
-  const fetch = await getbg()
+  // const fetch = await getbg()
 
 
 
@@ -26,8 +26,7 @@ export default  async function Home() {
 
   return (
     <>
-  {
-    <LoadingSpinner/> ?  <>
+
   <div     className=" bg-custom bg-no-repeat bg-cover bg-center mb-5 bg-opacity-20  ">
    
    
@@ -45,10 +44,9 @@ export default  async function Home() {
         <NewsLetter />
     
 <HeroTwo/>
-        </> : <LoadingSpinner/>
-  } 
 
 
-  </>
+
+</>
   );
 }
