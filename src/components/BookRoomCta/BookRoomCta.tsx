@@ -67,22 +67,22 @@ const {price,discount ,specialNote,
  
   const locale = useLocale()
   const t = useTranslations('BookNow');
+  const d = useTranslations('FeaturedRoom')
+
   return (
    <div className='px-7 py-6'>
    <h3 >
-   <span
-          className={`${discount ? 'text-gray-400' : ''} font-bold text-xl `}
-        >
-          $ {price}
-        </span>
+  
     {discount > 0 ? (
           <span className='font-bold text-xl'>
-            {' '}
-            | discount {discount}%. Now{' '}
+         
+         $ {price} {' '}| {t("Discount")} {discount}%. {t("Now")}{' '}
             <span className='text-tertiary-dark'>$ {discountPrice}</span>
           </span>
         ) : (
-          ''
+          <span className={`${discount ? 'text-gray-400' : ''} font-bold text-xl`}>
+          {d('from')} $ {price}
+         </span>
         )}
    </h3>
    <div className='w-full border-b-2 border-b-secondary my-2' />

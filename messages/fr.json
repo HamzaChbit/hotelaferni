@@ -43,7 +43,9 @@
     "children":"Enfants",
     "total":"Prix total",
     "book":"Réservez",
-    "singUp":"S'inscrire"
+    "singUp":"S'inscrire",
+      "Discount":"Rabais",
+    "Now":"Maintenant"
   },
   "NewsLetter":{
     "description":"À 10 minutes à pied de la plage d'Agadir, cet hôtel dispose d'une piscine extérieure entourée d'un jardin et d'un snack-bar. Décoré avec des éléments typiques marocains, il offre une réception ouverte 24h/24, une terrasse et une connexion Wi-Fi gratuite.",
