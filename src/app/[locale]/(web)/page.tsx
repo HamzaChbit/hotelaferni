@@ -11,6 +11,7 @@ import { getFeaturedRoom, getbg } from "@/libs/apis";
 import HeroTwo from "@/components/HeroTow/HeroTwo";
 import LoadingSpinner from "./loading";
 import ClientComponent from "@/components/HeroSection/ClientComponent";
+import Image from "next/image";
 
 
 
@@ -27,12 +28,20 @@ export default  async function Home() {
   return (
     <>
 
-  <div     className=" bg-custom bg-no-repeat bg-cover bg-center mb-5 bg-opacity-20  ">
+<div  className="relative mb-5 bg-opacity-20  ">
+   <div className="absolute top-0 left-0 w-full h-full z-[-1]">
+     <Image
+   src="/custom1.jpg"
+   alt="Backround"
+   layout="fill"
+   objectFit="cover"
+   quality={75}
+   priority
+   title="Hotel New Farah"
    
    
-
-
-      
+   />
+   </div>
   
     <ClientComponent/>
           <PageSearch />
