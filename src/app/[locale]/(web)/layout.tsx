@@ -14,10 +14,10 @@ import {NextIntlClientProvider, useLocale} from 'next-intl';
 import { getMessages } from "next-intl/server";
 
 export const metadata: Metadata = {
-  title: 'Hotel Aferni',
+  title: 'Hotel Aferni Agadir',
   description: 'Hotel Aferni offers excellent value for money, with competitive prices and a wide range of amenities. The hotel is strategically located in the heart of Agadir, in the historic and touristy neighborhood of Talborjt. It is surrounded by two large squares, a beautiful pedestrian street leading to the sea.',
   keywords: [
-    // English
+    
     "Hotel Aferni",
     "Aferni Hotel",
     "Aferni",
