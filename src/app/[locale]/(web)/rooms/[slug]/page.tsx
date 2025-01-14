@@ -27,8 +27,7 @@ const RoomDetails = (props: { params: { slug: string } }) => {
   const { user } = useUser();
   const locale = useLocale()
   const t = useTranslations("pageRoom")
-  const userId = user?.fullName;
-  const email = user?.emailAddresses[0]?.emailAddress;
+ 
 
   const fetchRoom = async (url: string) => getRoom(slug);
   const { data: room, error, isLoading } = useSWR(`/api/room/${slug}`, fetchRoom);
@@ -36,6 +35,7 @@ const RoomDetails = (props: { params: { slug: string } }) => {
   const [checkinDate, setCheckinDate] = useState<Date | null>(null);
   const [checkoutDate, setCheckoutDate] = useState<Date | null>(null);
   const [telephone, setTelephone] = useState("");
+  const [email, setEmail] = useState("");
   const [adults, setAdults] = useState(1);
   const [noOfChildren, setNoOfChildren] = useState(0);
 
@@ -76,13 +76,13 @@ const RoomDetails = (props: { params: { slug: string } }) => {
         telephone,
         hotelRoomSlug,
         email,
-        user: userId,
-        userId: user?.id,
+    
       });
       toast.success("Booking successful");
       setCheckinDate(null);
       setCheckoutDate(null);
       setTelephone("");
+      setEmail("");
       setAdults(1);
       setNoOfChildren(0);
     } catch (error) {
@@ -201,6 +201,8 @@ const RoomDetails = (props: { params: { slug: string } }) => {
               setNoOfChildren={setNoOfChildren}
               isBooked={room.isBooked}
               handleBookNowClick={handleBookNowClick}
+              email={ email}
+              setEmail={ setEmail}
               telephone={telephone}
               setTelephone={setTelephone}
             />

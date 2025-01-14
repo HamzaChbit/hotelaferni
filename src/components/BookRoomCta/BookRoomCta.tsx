@@ -27,7 +27,8 @@ type Props ={
   noOfChildren: number;
   telephone: string;
   isBooked:boolean;
-  
+  email: string;
+  setEmail: Dispatch<SetStateAction<string>>;
   setTelephone: Dispatch<SetStateAction<string>>;
   handleBookNowClick: () => void;
 }
@@ -35,8 +36,7 @@ type Props ={
 
 const BookRoomCta:FC<Props> = props => {
   
-  const { user } = useUser();
-  const userId = user;
+
 const {price,discount ,specialNote,
   checkinDate,
   setCheckinDate,
@@ -51,7 +51,8 @@ const {price,discount ,specialNote,
   telephone, // Add telephone prop
   setTelephone, 
   handleBookNowClick,
-
+  email,
+  setEmail,
 
 }=props;
   
@@ -87,6 +88,21 @@ const {price,discount ,specialNote,
    </h3>
    <div className='w-full border-b-2 border-b-secondary my-2' />
    <h4 className='my-8'>{specialNote}</h4>
+   <div  className='flex mt-4 flex-col' > 
+    <label htmlFor="email" className='block text-sm font-medium text-gray-900 dark:text-dark-400'>
+           Email
+            </label>
+            <input type="email" id='email' value={email}   required onChange={e => setEmail(e.target.value)}
+           
+           
+            className='w-full border border-gray-300 rounded-lg p-2.5 
+            
+            '
+            />
+
+      
+      
+      </div>  
 
    <div className='flex'>
     <div className="w-1/2 pr-2" >
@@ -182,23 +198,13 @@ const {price,discount ,specialNote,
       : ( <></>)
       }
 
-{
-  userId?    <button
+<button
         disabled={isBooked}
         onClick={handleBookNowClick}
         className='btn-primary w-full mt-6 disabled:bg-gray-500 disabled:cursor-not-allowed'
       >
 {t("book")}
-      </button>  : 
-      
-      <button
-       
-      
-        className='btn-primary w-full mt-6 disabled:bg-gray-500 disabled:cursor-not-allowed'
-      >
-   <Link  href={`/${locale}/sign-up`} >{t("singUp")}</Link> 
-      </button>
-}
+      </button>  
   
 
 

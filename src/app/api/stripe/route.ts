@@ -15,8 +15,7 @@ type RequestData = {
   numberOfDays: number;
   hotelRoomSlug: string;
   email:string;
-  user:string;
-  userId:string;
+
 };
 
 export async function POST(req: Request, res: Response) {
@@ -29,14 +28,14 @@ export async function POST(req: Request, res: Response) {
     telephone,
     numberOfDays,
     email,
-    user,
-    userId,
+
   }: RequestData = await req.json();
 
   if (
     !checkinDate ||
     !checkoutDate ||
     !adults ||
+    !email ||
     !telephone ||
     !hotelRoomSlug ||
     !numberOfDays
@@ -64,10 +63,10 @@ export async function POST(req: Request, res: Response) {
       numberOfDays,
       telephone,
       email,
-      user,
+    
       discount: room.discount,
       totalPrice,
-      userId,
+     
     });
 
     return NextResponse.json(stripeSession, {

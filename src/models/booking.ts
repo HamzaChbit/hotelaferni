@@ -15,6 +15,5 @@ export type Booking = {
     totalPrice: number;
     email:string;
     discount: number;
-    user:string;
-    userId:string;
+  
   };
