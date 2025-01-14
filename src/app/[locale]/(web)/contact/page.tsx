@@ -124,6 +124,8 @@ const Contact: React.FC = () => {
             {...register("user_email", { required: true })}
             className='border-b-2 mt-1 w-full  py-3 bg-hero focus:border-b-green text-xl shadow-sm placeholder-slate-400 focus:outline-none  '
           />
+              
+           
           {errors.user_email && <span className="text-red-500">{t("error")}</span>}
           <label className='py-8 text-green text-2xl font-medium'>Message</label>
           <textarea
