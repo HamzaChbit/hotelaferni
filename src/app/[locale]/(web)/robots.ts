@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://newfarahhotel.vercel.app/en/sitemap.xml',
+    sitemap: 'https://newfarahhotel.vercel.app/fr/sitemap.xml',
   }
 }
 
