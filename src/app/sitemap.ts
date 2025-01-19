@@ -6,13 +6,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: 'https://hotelaferni.vercel.app/en',
       lastModified: new Date(),
       changeFrequency: 'yearly',
-      priority: 0.8,
+      priority: 1,
     },
     {
       url: 'https://hotelaferni.vercel.app/fr',
       lastModified: new Date(),
       changeFrequency: 'yearly',
-      priority: 0.8,
+      priority: 1,
     },
    
     {
@@ -30,13 +30,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: 'https://hotelaferni.vercel.app/fr/contact',
       lastModified: new Date(),
-      changeFrequency: 'yearly',
+      changeFrequency: 'monthly',
       priority: 0.5,
     },
     {
       url: 'https://hotelaferni.vercel.app/en/contact',
       lastModified: new Date(),
-      changeFrequency: 'yearly',
+      changeFrequency: 'monthly',
       priority: 0.5,
     },
   ]
